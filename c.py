@@ -3,7 +3,7 @@ import os
 
 def main():
 	s = socket.socket()
-	host = '192.168.1.239'
+	host = '172.20.10.1'
 	port = 8080
 	try:
 		s.connect((host,port))
